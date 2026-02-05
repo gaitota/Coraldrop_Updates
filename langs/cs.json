@@ -1,0 +1,15 @@
+{
+  "settings.pageTitle": "Nastavení dávkovače",
+  "settings.menu.modes": "Režimy dávkovače",
+  "settings.menu.balling": "Balling",
+  "settings.menu.additionalBalling": "Extra Balling",
+  "settings.menu.kalkwasser": "Vápenná voda",
+  "settings.menu.solution": "Spotřeba roztoku",
+  "settings.menu.calibration": "Kalibrace čerpadla",
+  "settings.menu.renaming": "Přejmenování kanálu",
+  "settings.menu.telegram": "Telegram upozornění",
+  "settings.menu.manual": "Ruční podávání",
+  "settings.menu.charts": "Graf spotřeby",
+  "settings.menu.terminal": "Protokol událostí",
+  "common.backToMain": "← Zpět na hlavní"
+}
