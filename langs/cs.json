@@ -1,15 +1,182 @@
 {
-  "settings.pageTitle": "Nastavení dávkovače",
-  "settings.menu.modes": "Režimy dávkovače",
-  "settings.menu.balling": "Balling",
-  "settings.menu.additionalBalling": "Extra Balling",
-  "settings.menu.kalkwasser": "Vápenná voda",
-  "settings.menu.solution": "Spotřeba roztoku",
-  "settings.menu.calibration": "Kalibrace čerpadla",
-  "settings.menu.renaming": "Přejmenování kanálu",
-  "settings.menu.telegram": "Telegram upozornění",
-  "settings.menu.manual": "Ruční podávání",
-  "settings.menu.charts": "Graf spotřeby",
-  "settings.menu.terminal": "Protokol událostí",
-  "common.backToMain": "← Zpět na hlavní"
+  "common": {
+    "backToMain": "← Zpět na hlavní",
+    "settings": "Nastavení",
+    "channelWord": "Kanál",
+    "backToSettings": "Zpět do nastavení",
+    "channelShort": "Kan.",
+    "save": "Uložit",
+    "saving": "Ukládání...",
+    "back": "Zpět",
+    "serverError": "Server neodpovídá",
+    "error": "Chyba při ukládání",
+    "loadError": "Chyba při načítání dat",
+    "pumpError": "Chyba ovládání čerpadla",
+    "channels": {
+      "1": "Kanál 1", "2": "Kanál 2", "3": "Kanál 3", "4": "Kanál 4",
+      "5": "Kanál 5", "6": "Kanál 6", "7": "Kanál 7", "8": "Kanál 8"
+    },
+    "lang": {
+      "ru": "Русский",
+      "en": "English",
+      "cs": "Čeština"
+    }
+  },
+  "index": {
+    "subtitle": "Přesné dávkování pro mořská a útesová akvária"
+  },
+  "settings": {
+    "pageTitle": "Nastavení dávkovače",
+    "menu": {
+      "modes": "Režimy dávkovače",
+      "balling": "Balling",
+      "additionalBalling": "Další Balling",
+      "kalkwasser": "Vápenná voda v noci",
+      "solution": "Spotřeba roztoku",
+      "calibration": "Kalibrace čerpadla",
+      "renaming": "Přejmenování kanálu",
+      "telegram": "Telegram oznámení",
+      "manual": "Ruční dávkování",
+      "charts": "Graf spotřeby",
+      "terminal": "Protokol událostí"
+    },
+    "alerts": {
+      "noKalk": "Vápenná voda není zapnuta na žádném kanálu",
+      "selectChannel": "Zadejte číslo kanálu:",
+      "wrongChannel": "Neplatné číslo kanálu",
+      "selectChannelPrompt": "Vápenná voda je zapnuta na několika kanálech:\n{list}\n\nZadejte číslo kanálu:"
+    }
+  },
+  "manual": {
+    "pageTitle": "Ruční dávkování",
+    "selectChannel": "Vyberte kanál",
+    "volumeLabel": "Objem dávky (ml)",
+    "volumePlaceholder": "Objem podávaného roztoku, ml",
+    "btnDose": "Dávkovat roztok",
+    "btnPrime": "Proplachování",
+    "btnStop": "ZASTAVIT",
+    "alerts": {
+      "enterVolume": "Zadejte objem",
+      "taskAdded": "Úkol přidán: {vol} ml na kanál {ch}"
+    }
+  },
+  "wifi": {
+    "title": "Nastavení Wi-Fi a časového pásma",
+    "ssidLabel": "SSID:",
+    "ssidPlaceholder": "Název sítě",
+    "passLabel": "Heslo:",
+    "passPlaceholder": "Heslo (lze ponechat prázdné)",
+    "tzLabel": "Časové pásmo:",
+    "btnSave": "Uložit nastavení",
+    "alerts": {
+      "success": "Nastavení úspěšně uloženo!",
+      "error": "Chyba při ukládání"
+    }
+  },
+  "telegram": {
+    "title": "Nastavení Telegramu",
+    "instruction": {
+      "summary": "Jak nastavit Telegram bota Coraldrop",
+      "step1": "Otevřete <b>Telegram</b> и vyhledejte bota <b>@BotFather</b>. Stiskněte <i>Start</i>.",
+      "step2": "Odeslat příkaz <code>/newbot</code> a postupujte podle pokynů. Uživatelské jméno musí končit na <code>bot</code>.",
+      "step3": "Po vytvoření zkopírujte <b>API Token</b> a vložte jej do pole Bot Token.",
+      "step4": "Najděte svého bota v Telegramu a stiskněte <i>Start</i>.",
+      "step5": "Vyhledejte bota <b>@userinfobot</b> a stiskněte <i>Start</i>.",
+      "step6": "Zkopírujte své <b>Chat ID</b> a vložte jej do pole Chat ID.",
+      "step7": "<b>Důležité:</b> Musíte stisknout <i>Start</i> ve svém botu, jinak nebude moci odesílat zprávy.",
+      "step8": "Pro testování připojení stiskněte <b>Zkontrolovat připojení</b>."
+    },
+    "enableNotif": "Povolit oznámení",
+    "botTokenLabel": "Bot Token",
+    "chatIdLabel": "Chat ID",
+    "note": "* Bot Token — z @BotFather, Chat ID — z @userinfobot",
+    "btnTest": "Zkontrolovat připojení",
+    "status": {
+      "sending": "Odesílání..."
+    },
+    "alerts": {
+      "saveSuccess": "Nastavení Telegramu uloženo!",
+      "testSuccess": "Zpráva odeslána! Zkontrolujte Telegram.",
+      "testError": "Chyba při odesílání"
+    }
+  },
+  "balling_day": {
+    "title": "Balling • Den",
+    "header": "Nastavení Ballingu: Den",
+    "percentLabel": "Procento denní dávky (%)",
+    "lightFrom": "Maximální světlo od",
+    "lightTo": "Maximální světlo do",
+    "alerts": {
+      "saved": "Nastavení dne úspěšně uloženo!",
+      "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nNyní je nastaveno pro noc: {night}%. Maximum pro den: {max}%."
+    }
+  },
+  "pump": {
+    "pageTitle": "Dávkovač • Nastavení",
+    "header": "Nastavení Ballingu",
+    "solutionName": "Název roztoku:",
+    "dailyDose": "Množství roztoku za den (ml)",
+    "extraDose": "Doplňková dávka Ballingu za den (ml)",
+    "pause": "Pauza mezi dávkami (min)",
+    "dosePerShot": "Množství roztoku na jednu dávku (ml)",
+    "phaseInfo": "(Fáze: {phase}, {percent}%)",
+    "phases": {
+      "day": "Den",
+      "night": "Noc",
+      "other": "Ráno/Večer"
+    }
+  },
+  "calibration": {
+    "title": "Údaje o kalibraci",
+    "channel": "Kanál",
+    "lastDate": "Poslední kalibrace",
+    "notDone": "Kalibrace nebyla provedena!",
+    "expiredNote": "Vyžadována kalibrace"
+  },
+  "cal_set": {
+    "header": "Kalibrace kanálu",
+    "selectVariant": "Vyberte variantu kalibrace:",
+    "calc": "Vypočítat průtok",
+    "resultLabel": "Čas na přečerpání 1 ml roztoku (sek)",
+    "pumpOn": "Zapnout čerpadlo",
+    "pumpOff": "Vypnout čerpadlo",
+    "v1": {
+      "name": "Varianta 1 (10 sek)",
+      "btnStart": "Kalibrace",
+      "hint": "Čerpadlo se zapne na 10 sekund.",
+      "running": "Spuštěno...",
+      "inputLabel": "Zadejte množství přečerpaného roztoku (ml)",
+      "alertDone": "Měření dokončeno. Zadejte objem."
+    },
+    "v2": {
+      "name": "Varianta 2 (50 ml)",
+      "hint": "Stiskněte START, přečerpejte 50 ml kapaliny, stiskněte STOP.",
+      "start": "START",
+      "stop": "STOP",
+      "alertOrder": "Nejprve stiskněte START"
+    },
+    "status": {
+      "expired": "Vyžadována kalibrace!",
+      "ok": "Aktuální"
+    },
+    "alerts": {
+      "invalidVolume": "Zadejte správný objem",
+      "notCalibrated": "Kalibrace nebyla provedena",
+      "saved": "Kalibrace uložena: "
+    }
+  },
+  "balling_night": {
+    "title": "Balling • Noc",
+    "header": "Nastavení Ballingu: Noc",
+    "percentLabel": "Procento denní dávky (%)",
+    "lightOff": "Čas vypnutí světla:",
+    "lightOn": "Čas zapnutí světla:",
+    "alerts": {
+      "fillTime": "Vyplňte čas vypnutí и zapnutí světla",
+      "invalidTimeRange": "Chyba při zadávání času!\n\nČas vypnutí musí být VEČER,\na zapnutí — RÁNO.\n\nPříklad: 22:00 → 07:00",
+      "invalidPercent": "Procento musí být od 0 do 100",
+      "saved": "Nastavení nočního režimu uloženo!",
+      "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nNyní je nastaveno pro den: {day}%. Maximum pro noc: {max}%."
+    }
+  }
 }
