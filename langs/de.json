@@ -1,0 +1,48 @@
+{
+  "common": {
+    "backToMain": "← Zurück zum Hauptmenü",
+    "settings": "Einstellungen",
+    "channelWord": "Kanal",
+    "backToSettings": "Zurück zu Einstellungen",
+    "channelShort": "Kan.",
+    "save": "Speichern",
+    "saving": "Speichern...",
+    "back": "Zurück",
+    "serverError": "Server antwortet nicht",
+    "error": "Fehler beim Speichern",
+    "loadError": "Fehler beim Laden der Daten",
+    "pumpError": "Pumpensteuerungsfehler",
+    "channels": {
+      "1": "Kanal 1", "2": "Kanal 2", "3": "Kanal 3", "4": "Kanal 4",
+      "5": "Kanal 5", "6": "Kanal 6", "7": "Kanal 7", "8": "Kanal 8"
+    }
+  },
+  "index": {
+    "subtitle": "Präzise Dosierung für Meerwasser- und Riffaquarien"
+  },
+  "settings": {
+    "pageTitle": "Dosierer-Einstellungen",
+    "menu": {
+      "modes": "Dosiermodi",
+      "balling": "Balling",
+      "additionalBalling": "Zusatz-Balling",
+      "kalkwasser": "Kalkwasser bei Nacht",
+      "solution": "Lösungsverbrauch",
+      "calibration": "Pumpenkalibrierung",
+      "renaming": "Kanal umbenennen",
+      "telegram": "Telegram-Benachrichtigungen",
+      "manual": "Manuelle Dosierung",
+      "charts": "Verbrauchsdiagramm",
+      "terminal": "Ereignisprotokoll"
+    }
+  },
+  "manual": {
+    "pageTitle": "Manuelle Dosierung",
+    "selectChannel": "Kanal wählen",
+    "volumeLabel": "Dosiervolumen (ml)",
+    "volumePlaceholder": "Volumen der Lösung, ml",
+    "btnDose": "Lösung dosieren",
+    "btnPrime": "Ansaugen",
+    "btnStop": "STOPP"
+  }
+}
