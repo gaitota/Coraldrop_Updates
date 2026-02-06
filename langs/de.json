@@ -1,48 +1,196 @@
-{
-  "common": {
-    "backToMain": "← Zurück zum Hauptmenü",
-    "settings": "Einstellungen",
-    "channelWord": "Kanal",
-    "backToSettings": "Zurück zu Einstellungen",
-    "channelShort": "Kan.",
-    "save": "Speichern",
-    "saving": "Speichern...",
-    "back": "Zurück",
-    "serverError": "Server antwortet nicht",
-    "error": "Fehler beim Speichern",
-    "loadError": "Fehler beim Laden der Daten",
-    "pumpError": "Pumpensteuerungsfehler",
-    "channels": {
-      "1": "Kanal 1", "2": "Kanal 2", "3": "Kanal 3", "4": "Kanal 4",
-      "5": "Kanal 5", "6": "Kanal 6", "7": "Kanal 7", "8": "Kanal 8"
+window.TRANSLATIONS = {
+    de: {
+        common: {
+            backToMain: "← Zur Startseite",
+            settings: "Einstellungen",
+            channelWord: "Kanal",
+            backToSettings: "Zurück zu den Einstellungen",
+            channelShort: "Kan.", // Kurze Bezeichnung für Listen
+            save: "Speichern",
+            saving: "Speichern...",
+            back: "Zurück",
+            serverError: "Server antwortet nicht",
+            error: "Speicherfehler",
+            loadError: "Fehler beim Laden der Daten",
+            pumpError: "Pumpensteuerungsfehler",
+            channelWord: "Kanal",
+            channels: {
+                1: "Kanal 1", 2: "Kanal 2", 3: "Kanal 3", 4: "Kanal 4",
+                5: "Kanal 5", 6: "Kanal 6", 7: "Kanal 7", 8: "Kanal 8"
+            },
+            lang: {
+                ru: "Русский",
+                en: "English",
+                cs: "Čeština",
+                de: "Deutsch"
+            }
+        },
+
+        index: {
+            subtitle: "Präzise Dosierung für Meer- und Riffaquarien"
+        },
+
+        settings: {
+            pageTitle: "Dosierer-Einstellungen",
+            menu: {
+                modes: "Dosiermodi",
+                balling: "Balling",
+                additionalBalling: "Zusätzliches Balling",
+                kalkwasser: "Kalkwasser nachts",
+                solution: "Lösungsverbrauch",
+                calibration: "Pumpenkalibrierung",
+                renaming: "Kanal umbenennen",
+                telegram: "Telegram-Benachrichtigungen",
+                manual: "Manuelle Dosierung",
+                charts: "Verbrauchsdiagramm",
+                terminal: "Ereignisprotokoll"
+            },
+            alerts: {
+                noKalk: "Kalkwasser ist auf keinem Kanal aktiviert",
+                selectChannel: "Kanalnummer eingeben:",
+                wrongChannel: "Ungültige Kanalnummer",
+                selectChannelPrompt: "Kalkwasser ist auf mehreren Kanälen aktiviert:\n{list}\n\nBitte Kanalnummer eingeben:"
+            }
+        },
+
+        manual: {
+            pageTitle: "Manuelle Dosierung",
+            selectChannel: "Kanal auswählen",
+            volumeLabel: "Dosiermenge (ml)",
+            volumePlaceholder: "Menge der dosierten Lösung, ml",
+            btnDose: "Lösung dosieren",
+            btnPrime: "Leitung spülen",
+            btnStop: "STOPP",
+            alerts: {
+                enterVolume: "Bitte Menge eingeben",
+                taskAdded: "Auftrag hinzugefügt: {vol} ml für Kanal {ch}"
+            }
+        },
+
+        wifi: {
+            title: "Wi-Fi- und Zeitzonen-Einstellungen",
+            ssidLabel: "SSID:",
+            ssidPlaceholder: "Netzwerkname",
+            passLabel: "Passwort:",
+            passPlaceholder: "Passwort (kann leer bleiben)",
+            tzLabel: "Zeitzone:",
+            btnSave: "Einstellungen speichern",
+            alerts: {
+                success: "Einstellungen erfolgreich gespeichert!",
+                error: "Fehler beim Speichern"
+            }
+        },
+
+        telegram: {
+            title: "Telegram-Einstellungen",
+            instruction: {
+                summary: "So richten Sie den Coraldrop-Telegram-Bot ein",
+                step1: "Öffnen Sie <b>Telegram</b> und suchen Sie nach <b>@BotFather</b>. Tippen Sie auf <i>Start</i>.",
+                step2: "Senden Sie den Befehl <code>/newbot</code> und folgen Sie den Anweisungen. Der Benutzername muss auf <code>bot</code> enden.",
+                step3: "Kopieren Sie nach der Erstellung den erhaltenen <b>API-Token</b> und fügen Sie ihn in das Feld Bot Token ein.",
+                step4: "Suchen Sie Ihren Bot in Telegram und tippen Sie auf <i>Start</i>.",
+                step5: "Suchen Sie nach <b>@userinfobot</b> und tippen Sie auf <i>Start</i>.",
+                step6: "Kopieren Sie Ihre <b>Chat-ID</b> und fügen Sie sie in das Feld Chat ID ein.",
+                step7: "<b>Wichtig:</b> Sie müssen in Ihrem Bot auf <i>Start</i> tippen, sonst kann er keine Nachrichten senden.",
+                step8: "Zur Verbindungsprüfung klicken Sie auf <b>Verbindung testen</b>."
+            },
+            enableNotif: "Benachrichtigungen aktivieren",
+            botTokenLabel: "Bot Token",
+            chatIdLabel: "Chat ID",
+            note: "* Bot Token von @BotFather, Chat ID von @userinfobot",
+            btnTest: "Verbindung testen",
+            status: {
+                sending: "Senden..."
+            },
+            alerts: {
+                saveSuccess: "Telegram-Einstellungen gespeichert!",
+                testSuccess: "Nachricht gesendet! Bitte Telegram prüfen.",
+                testError: "Sendevorgang fehlgeschlagen"
+            }
+        },
+
+        balling_day: {
+            title: "Balling • Tag",
+            header: "Balling-Einstellungen: Tag",
+            percentLabel: "Prozentsatz der Tagesmenge (%)",
+            lightFrom: "Maximales Licht ab",
+            lightTo: "Maximales Licht bis",
+            alerts: {
+                saved: "Tageseinstellungen erfolgreich gespeichert!",
+                sumError: "Fehler! Die Summe der Prozente (Tag + Nacht) überschreitet 100%.\nAktuell für Nacht eingestellt: {night}%. Maximal für Tag: {max}%."
+            }
+        },
+
+        pump: {
+            pageTitle: "Dosierer • Einstellungen",
+            header: "Balling-Einstellungen",
+            solutionName: "Name der Lösung:",
+            dailyDose: "Tagesmenge der Lösung (ml)",
+            extraDose: "Zusätzliche Balling-Dosis pro Tag (ml)",
+            pause: "Pause zwischen Dosierungen (Min)",
+            dosePerShot: "Menge pro Dosierung (ml)",
+            phaseInfo: "(Phase: {phase}, {percent}%)",
+            phases: {
+                day: "Tag",
+                night: "Nacht",
+                other: "Morgen/Abend"
+            }
+        },
+
+        calibration: {
+            title: "Kalibrierdaten",
+            channel: "Kanal",
+            lastDate: "Letzte Kalibrierung",
+            notDone: "Keine Kalibrierung durchgeführt!",
+            expiredNote: "Kalibrierung erforderlich"
+        },
+
+        cal_set: {
+            header: "Kanal kalibrieren",
+            selectVariant: "Kalibriervariante auswählen:",
+            calc: "Durchfluss berechnen",
+            resultLabel: "Zeit zum Fördern von 1 ml Lösung (Sek.)",
+            pumpOn: "Pumpe einschalten",
+            pumpOff: "Pumpe ausschalten",
+            v1: {
+                name: "Variante 1",
+                btnStart: "Kalibrieren",
+                hint: "Die Pumpe läuft 10 Sekunden.",
+                running: "Läuft...",
+                inputLabel: "Geförderte Lösungsmenge eingeben (ml)",
+                alertDone: "Messung abgeschlossen. Bitte Menge eingeben."
+            },
+            v2: {
+                name: "Variante 2",
+                hint: "Drücken Sie START, fördern Sie 50 ml Flüssigkeit, dann STOP.",
+                start: "START",
+                stop: "STOP",
+                alertOrder: "Bitte zuerst START drücken"
+            },
+            status: {
+                expired: "Kalibrierung erforderlich!",
+                ok: "Aktuell"
+            },
+            alerts: {
+                invalidVolume: "Bitte gültige Menge eingeben",
+                notCalibrated: "Kalibrierung nicht durchgeführt",
+                saved: "Kalibrierung gespeichert: "
+            }
+        },
+
+        balling_night: {
+            title: "Balling • Nacht",
+            header: "Balling-Einstellungen: Nacht",
+            percentLabel: "Prozentsatz der Tagesmenge (%)",
+            lightOff: "Licht ausschalten um:",
+            lightOn: "Licht einschalten um:",
+            alerts: {
+                fillTime: "Bitte Ein- und Ausschaltzeit des Lichts festlegen",
+                invalidTimeRange: "Fehlerhafte Zeiteingabe!\n\nAusschaltzeit muss ABENDS sein,\nEinschaltzeit MORGENS.\n\nBeispiel: 22:00 → 07:00",
+                invalidPercent: "Prozentsatz muss zwischen 0 und 100 liegen",
+                saved: "Nachteinstellungen gespeichert!",
+                sumError: "Fehler! Die Summe der Prozente (Tag + Nacht) überschreitet 100%.\nAktuell für Tag eingestellt: {day}%. Maximal für Nacht: {max}%."
+            }
+        }
     }
-  },
-  "index": {
-    "subtitle": "Präzise Dosierung für Meerwasser- und Riffaquarien"
-  },
-  "settings": {
-    "pageTitle": "Dosierer-Einstellungen",
-    "menu": {
-      "modes": "Dosiermodi",
-      "balling": "Balling",
-      "additionalBalling": "Zusatz-Balling",
-      "kalkwasser": "Kalkwasser bei Nacht",
-      "solution": "Lösungsverbrauch",
-      "calibration": "Pumpenkalibrierung",
-      "renaming": "Kanal umbenennen",
-      "telegram": "Telegram-Benachrichtigungen",
-      "manual": "Manuelle Dosierung",
-      "charts": "Verbrauchsdiagramm",
-      "terminal": "Ereignisprotokoll"
-    }
-  },
-  "manual": {
-    "pageTitle": "Manuelle Dosierung",
-    "selectChannel": "Kanal wählen",
-    "volumeLabel": "Dosiervolumen (ml)",
-    "volumePlaceholder": "Volumen der Lösung, ml",
-    "btnDose": "Lösung dosieren",
-    "btnPrime": "Ansaugen",
-    "btnStop": "STOPP"
-  }
-}
+};
