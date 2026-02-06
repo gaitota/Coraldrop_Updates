@@ -126,7 +126,7 @@
     "dailyDose": "Tagesmenge der Lösung (ml)",
     "extraDose": "Zusätzliche Balling-Dosis pro Tag (ml)",
     "pause": "Pause zwischen Dosierungen (Min)",
-    "dosePerShot": "Menge pro Dosierung (ml)",
+    "dosePerShot": "Dosiermenge pro Dosis (ml)",
     "phaseInfo": "(Phase: {phase}, {percent}%)",
     "phases": {
       "day": "Tag",
