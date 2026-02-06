@@ -1,4 +1,3 @@
-window.TRANSLATIONS = {
     de: {
         common: {
             backToMain: "← Zur Startseite",
@@ -193,4 +192,3 @@ window.TRANSLATIONS = {
             }
         }
     }
-};
