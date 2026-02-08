@@ -9,12 +9,22 @@
     "saving": "Ukládání...",
     "back": "Zpět",
     "serverError": "Server neodpovídá",
-    "error": "Chyba při ukládání",
-    "loadError": "Chyba při načítání dat",
+    "error": "Chyba ukládání",
+    "loadError": "Chyba načítání dat",
     "pumpError": "Chyba ovládání čerpadla",
     "channels": {
-      "1": "Kanál 1", "2": "Kanál 2", "3": "Kanál 3", "4": "Kanál 4",
-      "5": "Kanál 5", "6": "Kanál 6", "7": "Kanál 7", "8": "Kanál 8"
+      "1": "Kanál 1",
+      "2": "Kanál 2",
+      "3": "Kanál 3",
+      "4": "Kanál 4",
+      "5": "Kanál 5",
+      "6": "Kanál 6",
+      "7": "Kanál 7",
+      "8": "Kanál 8",
+      "9": "Kanál 9",
+      "10": "Kanál 10",
+      "11": "Kanál 11",
+      "12": "Kanál 12"
     },
     "lang": {
       "ru": "Русский",
@@ -23,41 +33,19 @@
     }
   },
   "index": {
-    "subtitle": "Přesné dávkování pro mořská a útesová akvária"
-  },
-  "settings": {
-    "pageTitle": "Nastavení dávkovače",
-    "menu": {
-      "modes": "Režimy dávkovače",
-      "balling": "Balling",
-      "additionalBalling": "Další Balling",
-      "kalkwasser": "Vápenná voda v noci",
-      "solution": "Spotřeba roztoku",
-      "calibration": "Kalibrace čerpadla",
-      "renaming": "Přejmenování kanálu",
-      "telegram": "Telegram oznámení",
-      "manual": "Ruční dávkování",
-      "charts": "Graf spotřeby",
-      "terminal": "Protokol událostí"
-    },
-    "alerts": {
-      "noKalk": "Vápenná voda není zapnuta na žádném kanálu",
-      "selectChannel": "Zadejte číslo kanálu:",
-      "wrongChannel": "Neplatné číslo kanálu",
-      "selectChannelPrompt": "Vápenná voda je zapnuta na několika kanálech:\n{list}\n\nZadejte číslo kanálu:"
-    }
+    "subtitle": "Nejlepší řešení pro přesné dávkování"
   },
   "manual": {
     "pageTitle": "Ruční dávkování",
     "selectChannel": "Vyberte kanál",
     "volumeLabel": "Objem dávky (ml)",
-    "volumePlaceholder": "Objem podávaného roztoku, ml",
-    "btnDose": "Dávkovat roztok",
-    "btnPrime": "Proplachování",
+    "volumePlaceholder": "Objem dávkovaného roztoku, ml",
+    "btnDose": "Dávkovat",
+    "btnPrime": "Plnění (Prime)",
     "btnStop": "ZASTAVIT",
     "alerts": {
       "enterVolume": "Zadejte objem",
-      "taskAdded": "Úkol přidán: {vol} ml na kanál {ch}"
+      "taskAdded": "Úloha přidána: {vol} ml na kanál {ch}"
     }
   },
   "wifi": {
@@ -65,7 +53,7 @@
     "ssidLabel": "SSID:",
     "ssidPlaceholder": "Název sítě",
     "passLabel": "Heslo:",
-    "passPlaceholder": "Heslo (lze ponechat prázdné)",
+    "passPlaceholder": "Heslo (lze nechat prázdné)",
     "tzLabel": "Časové pásmo:",
     "btnSave": "Uložit nastavení",
     "alerts": {
@@ -77,27 +65,26 @@
     "title": "Nastavení Telegramu",
     "instruction": {
       "summary": "Jak nastavit Telegram bota Coraldrop",
-      "step1": "Otevřete <b>Telegram</b> и vyhledejte bota <b>@BotFather</b>. Stiskněte <i>Start</i>.",
-      "step2": "Odeslat příkaz <code>/newbot</code> a postupujte podle pokynů. Uživatelské jméno musí končit na <code>bot</code>.",
-      "step3": "Po vytvoření zkopírujte <b>API Token</b> a vložte jej do pole Bot Token.",
-      "step4": "Najděte svého bota v Telegramu a stiskněte <i>Start</i>.",
-      "step5": "Vyhledejte bota <b>@userinfobot</b> a stiskněte <i>Start</i>.",
-      "step6": "Zkopírujte své <b>Chat ID</b> a vložte jej do pole Chat ID.",
-      "step7": "<b>Důležité:</b> Musíte stisknout <i>Start</i> ve svém botu, jinak nebude moci odesílat zprávy.",
-      "step8": "Pro testování připojení stiskněte <b>Zkontrolovat připojení</b>."
+      "step1": "Otevřete <b>Telegram</b> a v vyhledávání najděte bota <b>@BotFather</b>. Stiskněte <i>Start</i>.",
+      "step2": "Pošlete příkaz <code>/newbot</code> a postupujte podle pokynů:<br>1. Zadejte jméno bota (např. <b>Coraldrop</b>).<br>2. Vytvořte unikátní <b>Username</b> (musí končit na <code>_bot</code>, např. <b>my_doser_bot</b>).",
+      "step3": "BotFather vám dá token (řetězec pod textem <i>Use this token to access the HTTP API</i>).<br>Zkopírujte tento token a vložte jej do pole <i>Bot Token</i> na této stránce.",
+      "step4": "V vyhledávání Telegramu najděte <b>svého</b> vytvořeného bota (podle Username) a stiskněte <i>Start</i>.<br><b>Důležité:</b> Bez stisknutí Start nebude bot moci posílat oznámení.",
+      "step5": "V vyhledávání najděte bota <b>@userinfobot</b> a stiskněte <i>Start</i>.",
+      "step6": "Zkopírujte své <b>Id</b> (čísla), které vám bot pošle, a vložte jej do pole <i>Chat ID</i> na této stránce.",
+      "step7": "Pro test stiskněte tlačítko <b>Zkontrolovat spojení</b> níže. Do vašeho Telegramu by měla přijít testovací zpráva."
     },
     "enableNotif": "Povolit oznámení",
     "botTokenLabel": "Bot Token",
     "chatIdLabel": "Chat ID",
     "note": "* Bot Token — z @BotFather, Chat ID — z @userinfobot",
-    "btnTest": "Zkontrolovat připojení",
+    "btnTest": "Zkontrolovat spojení",
     "status": {
       "sending": "Odesílání..."
     },
     "alerts": {
       "saveSuccess": "Nastavení Telegramu uloženo!",
       "testSuccess": "Zpráva odeslána! Zkontrolujte Telegram.",
-      "testError": "Chyba při odesílání"
+      "testError": "Chyba odesílání"
     }
   },
   "balling_day": {
@@ -108,7 +95,7 @@
     "lightTo": "Maximální světlo do",
     "alerts": {
       "saved": "Nastavení dne úspěšně uloženo!",
-      "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nNyní je nastaveno pro noc: {night}%. Maximum pro den: {max}%."
+      "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nAktuálně nastaveno na noc: {night}%. Maximum pro den: {max}%."
     }
   },
   "pump": {
@@ -116,7 +103,7 @@
     "header": "Nastavení Ballingu",
     "solutionName": "Název roztoku:",
     "dailyDose": "Množství roztoku za den (ml)",
-    "extraDose": "Doplňková dávka Ballingu za den (ml)",
+    "extraDose": "Extra dávka Ballingu za den (ml)",
     "pause": "Pauza mezi dávkami (min)",
     "dosePerShot": "Množství roztoku na jednu dávku (ml)",
     "phaseInfo": "(Fáze: {phase}, {percent}%)",
@@ -127,40 +114,40 @@
     }
   },
   "calibration": {
-    "title": "Údaje o kalibraci",
+    "title": "Kalibrační data",
     "channel": "Kanál",
     "lastDate": "Poslední kalibrace",
     "notDone": "Kalibrace nebyla provedena!",
-    "expiredNote": "Vyžadována kalibrace"
+    "expiredNote": "Vyžaduje kalibraci"
   },
   "cal_set": {
     "header": "Kalibrace kanálu",
     "selectVariant": "Vyberte variantu kalibrace:",
     "calc": "Vypočítat průtok",
-    "resultLabel": "Čas na přečerpání 1 ml roztoku (sek)",
+    "resultLabel": "Čas na přečerpání 1 ml (sek)",
     "pumpOn": "Zapnout čerpadlo",
     "pumpOff": "Vypnout čerpadlo",
     "v1": {
-      "name": "Varianta 1 (10 sek)",
+      "name": "Varianta 1",
       "btnStart": "Kalibrace",
       "hint": "Čerpadlo se zapne na 10 sekund.",
       "running": "Spuštěno...",
-      "inputLabel": "Zadejte množství přečerpaného roztoku (ml)",
+      "inputLabel": "Zadejte množství přečerpané kapaliny (ml)",
       "alertDone": "Měření dokončeno. Zadejte objem."
     },
     "v2": {
-      "name": "Varianta 2 (50 ml)",
+      "name": "Varianta 2",
       "hint": "Stiskněte START, přečerpejte 50 ml kapaliny, stiskněte STOP.",
       "start": "START",
       "stop": "STOP",
-      "alertOrder": "Nejprve stiskněte START"
+      "alertOrder": "Nejdříve stiskněte START"
     },
     "status": {
-      "expired": "Vyžadována kalibrace!",
+      "expired": "Vyžaduje kalibraci!",
       "ok": "Aktuální"
     },
     "alerts": {
-      "invalidVolume": "Zadejte správný objem",
+      "invalidVolume": "Zadejte platný objem",
       "notCalibrated": "Kalibrace nebyla provedena",
       "saved": "Kalibrace uložena: "
     }
@@ -172,11 +159,28 @@
     "lightOff": "Čas vypnutí světla:",
     "lightOn": "Čas zapnutí světla:",
     "alerts": {
-      "fillTime": "Vyplňte čas vypnutí и zapnutí světla",
-      "invalidTimeRange": "Chyba při zadávání času!\n\nČas vypnutí musí být VEČER,\na zapnutí — RÁNO.\n\nPříklad: 22:00 → 07:00",
+      "fillTime": "Vyplňte čas vypnutí a zapnutí světla",
+      "invalidTimeRange": "Chyba zadání času!\n\nČas vypnutí by měl být VEČER,\na zapnutí RÁNO.\n\nPříklad: 22:00 → 07:00",
       "invalidPercent": "Procento musí být od 0 do 100",
       "saved": "Nastavení nočního režimu uloženo!",
-      "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nNyní je nastaveno pro den: {day}%. Maximum pro noc: {max}%."
+      "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nAktuálně nastaveno na den: {day}%. Maximum pro noc: {max}%."
+    }
+  },
+  "balling": {
+    "title": "Režimy dávkovače",
+    "row1": {
+      "left": "Balling",
+      "sep": " / ",
+      "right": "časovač"
+    },
+    "row_extra": "Extra dávka Ballingu",
+    "row_kalk: "Kalkwasser v noci",
+    "row_solution": "Kontrola zbytku roztoku",
+    "settings": {
+      "tele": "Oznámení Telegram",
+      "charts": "Graf spotřeby",
+      "logs: "Protokol událostí",
+      "rename": "Přejmenování kanálu"
     }
   }
 }
