@@ -183,4 +183,27 @@
       "rename": "Přejmenování kanálu"
     }
   }
+"settings": {
+    "pageTitle": "Nastavení dávkovače",
+    "moreLanguages": "Další jazyky",
+    "menu": {
+      "modes": "Režimy dávkovače",
+      "balling": "Balling",
+      "additionalBalling": "Extra Balling",
+      "kalkwasser": "Kalkwasser v noci",
+      "solution": "Spotřeba roztoku",
+      "calibration": "Kalibrace čerpadla",
+      "renaming": "Přejmenování kanálu",
+      "telegram": "Oznámení Telegram",
+      "manual": "Ruční dávkování",
+      "charts": "Graf spotřeby",
+      "terminal": "Protokol událostí"
+    },
+    "alerts": {
+      "noKalk": "Kalkwasser není zapnutý na žádném kanálu",
+      "selectChannel": "Zadejte číslo kanálu:",
+      "wrongChannel": "Neplatné číslo kanálu",
+      "selectChannelPrompt": "Kalkwasser je zapnutý na několika kanálech:\n{list}\n\nZadejte číslo kanálu:"
+    }
+  }
 }
