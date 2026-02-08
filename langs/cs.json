@@ -174,12 +174,12 @@
       "right": "časovač"
     },
     "row_extra": "Extra dávka Ballingu",
-    "row_kalk: "Kalkwasser v noci",
+    "row_kalk": "Kalkwasser v noci",
     "row_solution": "Kontrola zbytku roztoku",
     "settings": {
       "tele": "Oznámení Telegram",
       "charts": "Graf spotřeby",
-      "logs: "Protokol událostí",
+      "logs": "Protokol událostí",
       "rename": "Přejmenování kanálu"
     }
   }
