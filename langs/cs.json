@@ -91,8 +91,8 @@
     "title": "Balling • Den",
     "header": "Nastavení Ballingu: Den",
     "percentLabel": "Procento denní dávky (%)",
-    "lightFrom": "Maximální světlo od",
-    "lightTo": "Maximální světlo do",
+    "lightFrom": "Maximální světlo od:",
+    "lightTo": "Maximální světlo do:",
     "alerts": {
       "saved": "Nastavení dne úspěšně uloženo!",
       "sumError": "Chyba! Součet procent (Den + Noc) přesahuje 100%.\nAktuálně nastaveno na noc: {night}%. Maximum pro den: {max}%."
