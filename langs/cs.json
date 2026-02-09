@@ -211,5 +211,11 @@
       "wrongChannel": "Neplatné číslo kanálu",
       "selectChannelPrompt": "Kalkwasser je zapnutý na několika kanálech:\n{list}\n\nZadejte číslo kanálu:"
     }
+  },
+  "additional_balling": {
+      "title": "Extra dávka Ballinga",
+      "head": "Dodatečný Balling",
+      "inDay": "Za den"
   }
+  
 }
