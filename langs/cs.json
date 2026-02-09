@@ -110,6 +110,7 @@
     "extraDose": "Extra dávka Ballingu za den (ml)",
     "pause": "Pauza mezi dávkami (min)",
     "dosePerShot": "Množství roztoku na jednu dávku (ml)",
+    "dosePersent": "Denní příjem",
     "phaseInfo": "(Fáze: {phase}, {percent}%)",
     "phases": {
       "day": "Den",
