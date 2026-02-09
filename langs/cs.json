@@ -12,6 +12,10 @@
     "error": "Chyba ukládání",
     "loadError": "Chyba načítání dat",
     "pumpError": "Chyba ovládání čerpadla",
+    "from": "od",
+    "to": "do",
+    "ok": "OK",
+    "autoParams": "Parametry se nastavují automaticky",    
     "channels": {
       "1": "Kanál 1",
       "2": "Kanál 2",
