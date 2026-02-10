@@ -223,5 +223,11 @@
     "head": "Kontrola zbývajícího množství roztoku",
     "full_volume": "Celkový objem nádrže:",
     "left": "zbývá"
-}  
+},  
+"kalk": {
+  "title": "Kalkwasser v noci",
+  "name": "Kalkwasser",
+  "night": "Za noc"
+}
+  
 }
