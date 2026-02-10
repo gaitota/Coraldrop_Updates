@@ -129,6 +129,7 @@
     "expiredNote": "Vyžaduje kalibraci"
   },
   "cal_set": {
+    "title": "Dávkovač • Nastavení",
     "header": "Kalibrace kanálu",
     "selectVariant": "Vyberte variantu kalibrace:",
     "calc": "Vypočítat průtok",
