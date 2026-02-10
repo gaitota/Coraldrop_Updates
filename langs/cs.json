@@ -216,6 +216,12 @@
       "title": "Extra dávka Ballinga",
       "head": "Dodatečný Balling",
       "inDay": "Za den"
-  }
-  
+  },
+"solution": {
+    "title": "Kontrola roztoků",
+    "head": "Hlídání hladiny roztoku",
+    "full_volume": "Celkový objem nádrže:",
+    "left": "zbývá",
+    "ml": "ml"
+}  
 }
