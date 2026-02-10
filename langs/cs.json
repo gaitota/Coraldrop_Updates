@@ -219,7 +219,7 @@
   },
 "solution": {
     "title": "Kontrola roztoků",
-    "head": "Hlídání hladiny roztoku",
+    "head": "Kontrola zbývajícího množství roztoku",
     "full_volume": "Celkový objem nádrže:",
     "left": "zbývá",
     "ml": "ml"
