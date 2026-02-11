@@ -8,5 +8,7 @@
   "EMPTY_MSG": "Roztok je zcela vyčerpán!",
   "RECOMMEND": "Doporučujeme doplnit nádrž.",
   "BLOCKED": "Dávkování zablokováno do doplnění.",
-  "TYPE": "Typ úlohy"
+  "TYPE": "Typ úlohy",
+  "BOOT_MSG": "Dávkovač spuštěn!",
+  "OPEN_PANEL": "Otevřít ovládací panel"
 }
