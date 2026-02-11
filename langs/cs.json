@@ -248,17 +248,24 @@
   "stopped": "Monitorování bylo zastaveno."
 },
 "logs": {
-  "P_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
-  "P_MAN_STOP": "RUČNÍ ZASTAVENÍ",
-  "TASK_INFO": "Úloha: Kanál {0}, objem {1} ml",
-  "CALIBR_START": "Kanál {0} spuštěn na {1} s",
   "SERVER_STARTED": "Server byl spuštěn!",
   "AP_ACCESS": "Přístup přes přístupový bod: http://{0}",
   "LOCAL_IP": "Přístup přes lokální síť: http://{0}",
   "SETUP_DONE": "=== Nastavení dokončeno ===",
+  "ERR_POWER_OFF": "SYSTÉM VYPNUT (Globální napájení OFF)",
+  "ERR_EMPTY": "CHYBA: Nádrž je prázdná! ({0})",
+  "TASK_INFO": "Úloha: Kanál {0}, objem {1} ml",
+  "TASK_ACCEPTED": "PŘIJATO ({0}): {1} ml. Ve frontě: {2} ml",
+  "TASK_PARTIAL": "ČÁSTEČNĚ ({0}): {1} z {2} ml (Nedolito: {3} ml!)",
+  "REMAINING": "Zbývá: {0} ml. Dnes celkem: {1} ml",
+  "CONTROL_OFF": "PŘIJATO ({0}): {1} ml. [KONTROLA VYPNUTA]",
   "START": "START ({0}): {1} ml",
-  "FINISH": "KONEC ({0})"
+  "FINISH": "KONEC ({0})",
+  "P_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
+  "P_MAN_STOP": "RUČNÍ ZASTAVENÍ",
+  "CALIBR_START": "Kanál {0} spuštěn na {1} s"
 }
+
 
  
 }
