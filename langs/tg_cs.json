@@ -13,5 +13,9 @@
   "OPEN_PANEL": "Otevřít ovládací panel",
   "BOOT_MSG": "Dávkovač spuštěn!",
   "OPEN_PANEL": "Otevřít ovládací panel",
-  "TEST_MESSAGE": "Toto je testovací zpráva z vašeho dávkovače."
+  "TEST_MESSAGE": "Toto je testovací zpráva z vašeho dávkovače.",
+  "LOG_SUCCESS": "Zpráva byla úspěšně doručena",
+  "LOG_ERROR": "Chyba Telegram API! Kód:",
+  "LOG_CONN_ERROR": "Server Telegram je nedostupný",
+  "LOG_DISABLED": "Oznámení Telegram jsou vypnuta"
 }
