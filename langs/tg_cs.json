@@ -1,0 +1,12 @@
+{
+  "LOW_LEVEL": "NÍZKÁ HLADINA ROZTOKU",
+  "STOP_DOSE": "ZASTAVENÍ DÁVKOVÁNÍ",
+  "CHANNEL": "Kanál",
+  "REMAINING": "Zbývá",
+  "SOURCE": "Zdroj",
+  "STATUS": "Stav",
+  "EMPTY_MSG": "Roztok je zcela vyčerpán!",
+  "RECOMMEND": "Doporučujeme doplnit nádrž.",
+  "BLOCKED": "Dávkování zablokováno do doplnění.",
+  "TYPE": "Typ úlohy"
+}
