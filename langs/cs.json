@@ -248,12 +248,17 @@
   "stopped": "Monitorování bylo zastaveno."
 },
 "logs": {
-  "ERR_POWER_OFF": "SYSTÉM VYPNUT (Globální napájení OFF)",
-  "ERR_EMPTY": "CHYBA: Nádrž je prázdná!",
-  "TASK_PARTIAL": "ČÁSTEČNĚ: {v} z {rv} ml (Nedolito: {m} ml)",
-  "TASK_ACCEPTED": "PŘIJATO: {v} ml. Ve frontě: {q} ml",
-  "REMAINING": "Zbývá: {res} ml. Dnes celkem: {tod} ml",
-  "CONTROL_OFF": "PŘIJATO: {v} ml. [KONTROLA VYPNUTA]"
+  "P_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
+  "P_MAN_STOP": "RUČNÍ ZASTAVENÍ",
+  "TASK_INFO": "Úloha: Kanál {0}, objem {1} ml",
+  "CALIBR_START": "Kanál {0} spuštěn na {1} s",
+  "SERVER_STARTED": "Server byl spuštěn!",
+  "AP_ACCESS": "Přístup přes přístupový bod: http://{0}",
+  "LOCAL_IP": "Přístup přes lokální síť: http://{0}",
+  "SETUP_DONE": "=== Nastavení dokončeno ===",
+  "START": "START ({0}): {1} ml",
+  "FINISH": "KONEC ({0})"
 }
+
  
 }
