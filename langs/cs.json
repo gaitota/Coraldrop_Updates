@@ -246,6 +246,14 @@
   "disabledMsg": "Monitorování je vypnuto. Zapněte jej pro zobrazení...",
   "starting": "Spouštění monitorování...",
   "stopped": "Monitorování bylo zastaveno."
+},
+"logs": {
+  "ERR_POWER_OFF": "SYSTÉM VYPNUT (Globální napájení OFF)",
+  "ERR_EMPTY": "CHYBA: Nádrž je prázdná!",
+  "TASK_PARTIAL": "ČÁSTEČNĚ: {v} z {rv} ml (Nedolito: {m} ml)",
+  "TASK_ACCEPTED": "PŘIJATO: {v} ml. Ve frontě: {q} ml",
+  "REMAINING": "Zbývá: {res} ml. Dnes celkem: {tod} ml",
+  "CONTROL_OFF": "PŘIJATO: {v} ml. [KONTROLA VYPNUTA]"
 }
-  
+ 
 }
