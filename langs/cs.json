@@ -238,6 +238,14 @@
   "all": "Vše",
   "month": "30 dní",
   "week": "7 dní"
+},
+"terminal": {
+  "title": "Monitor logů",
+  "header": "Živý přenos logů",
+  "monitoring": "Monitorování",
+  "disabledMsg": "Monitorování je vypnuto. Zapněte jej pro zobrazení...",
+  "starting": "Spouštění monitorování...",
+  "stopped": "Monitorování bylo zastaveno."
 }
   
 }
