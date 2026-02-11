@@ -231,6 +231,13 @@
   "title": "Kalkwasser v noci",
   "name": "Kalkwasser",
   "night": "Za noc"
+},
+"charts": {
+  "title": "Monitoring dávkovače",
+  "consumption": "Spotřeba reagentů",
+  "all": "Vše",
+  "month": "30 dní",
+  "week": "7 dní"
 }
   
 }
