@@ -10,5 +10,8 @@
   "BLOCKED": "Dávkování zablokováno do doplnění.",
   "TYPE": "Typ úlohy",
   "BOOT_MSG": "Dávkovač spuštěn!",
-  "OPEN_PANEL": "Otevřít ovládací panel"
+  "OPEN_PANEL": "Otevřít ovládací panel",
+  "BOOT_MSG": "Dávkovač spuštěn!",
+  "OPEN_PANEL": "Otevřít ovládací panel",
+  "TEST_MESSAGE": "Toto je testovací zpráva z vašeho dávkovače."
 }
