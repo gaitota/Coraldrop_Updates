@@ -261,8 +261,8 @@
   "CONTROL_OFF": "PŘIJATO ({0}): {1} ml. [KONTROLA VYPNUTA]",
   "START": "START ({0}): {1} ml",
   "FINISH": "KONEC ({0})",
-  "P_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
-  "P_MAN_STOP": "RUČNÍ ZASTAVENÍ",
+  "PUMP_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
+  "PUMP_MAN_STOP": "RUČNÍ ZASTAVENÍ",
   "CALIBR_START": "Kanál {0} spuštěn na {1} s"
 }
 
