@@ -249,23 +249,35 @@
   "stopped": "Monitorování bylo zastaveno."
 },
 "logs": {
-  "SERVER_STARTED": "Server byl spuštěn!",
-  "AP_ACCESS": "Přístup přes přístupový bod: http://{0}",
-  "LOCAL_IP": "Přístup přes lokální síť: http://{0}",
-  "SETUP_DONE": "=== Nastavení dokončeno ===",
-  "ERR_POWER_OFF": "SYSTÉM VYPNUT (Globální napájení OFF)",
-  "ERR_EMPTY": "CHYBA: Nádrž je prázdná! ({0})",
-  "TASK_INFO": "Úloha: Kanál {0}, objem {1} ml",
-  "TASK_ACCEPTED": "PŘIJATO ({0}): {1} ml. Ve frontě: {2} ml",
-  "TASK_PARTIAL": "ČÁSTEČNĚ ({0}): {1} z {2} ml (Nedolito: {3} ml!)",
-  "REMAINING": "Zbývá: {0} ml. Dnes celkem: {1} ml",
-  "CONTROL_OFF": "PŘIJATO ({0}): {1} ml. [KONTROLA VYPNUTA]",
-  "START": "START ({0}): {1} ml",
-  "FINISH": "KONEC ({0})",
-  "PUMP_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
-  "PUMP_MAN_STOP": "RUČNÍ ZASTAVENÍ",
-  "CALIBR_START": "Kanál {0} spuštěn na {1} s"
-}
+    "SERVER_STARTED": "Server spuštěn!",
+    "AP_ACCESS": "Přístup přes AP: http://{0}",
+    "LOCAL_IP": "Přístup přes lokální síť: http://{0}",
+    "SETUP_DONE": "=== Nastavení dokončeno ===",
+    "ERR_POWER_OFF": "SYSTÉM VYPNUT (Global Power OFF)",
+    "ERR_EMPTY": "⛔️ >>> ODMÍTNUTO: Nádoba ({0}) je prázdná!",
+    "TASK_INFO": "📋 ÚLOHA: {0} ml",
+    "TASK_ACCEPTED": "✅ PŘIJATO ({0}): {1} ml. Ve frontě: {2} ml",
+    "TASK_PARTIAL": "ČÁSTEČNĚ ({0}): {1} z {2} ml. (Nedolito: {3} ml!)",
+    "REMAINING": "💧 Zůstatek: {0} ml | 📅 Dnes: {1} ml",
+    "CONTROL_OFF": "PŘIJATO ({0}): {1} ml. [KONTROLA VYPNUTA]",
+    "START": "START ({0}): {1} ml",
+    "FINISH": "KONEC ({0})",
+    "PUMP_MAN_START": "RUČNÍ SPUŠTĚNÍ (Nepřetržitě)",
+    "PUMP_MAN_STOP": "RUČNÍ ZASTAVENÍ",
+    "CALIBR_START": "Kanál {0} spuštěn na {1} sek"
+},
+  "kalk": {
+      "title": "Kalkwasser • Noc",
+      "pageTitle": "Kalkwasser v noci",
+      "totalDose": "Množství vápenné vody za noc (ml)",
+      "p1": "1. noční interval (%)",
+      "p2": "2. noční interval (%)",
+      "p3": "3. noční interval (%)",
+      "startTime": "Čas zahájení",
+      "endTime": "Čas ukončení",
+      "interval": "Interval mezi dávkami (min)",
+      "errPercent": "Součet % nesmí překročit 100"
+  }
 
 
  
