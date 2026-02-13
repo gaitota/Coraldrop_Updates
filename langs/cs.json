@@ -277,7 +277,20 @@
       "endTime": "Čas ukončení",
       "interval": "Interval mezi dávkami (min)",
       "errPercent": "Součet % nesmí překročit 100"
-  }
+  },
+"timer": {
+    "title": "Dávkování",
+    "channelSettings": "Nastavení kanálu",
+    "add": "Přidat časovač",
+    "save": "Uložit",
+    "back": "Zpět",
+    "label": "Časovač",
+    "startTime": "Čas zapnutí",
+    "dose": "Dávka (ml)",
+    "days": "Dny v týdnu:",
+    "remove": "Odstranit časovač",
+    "noTimers": "Žádné časovače"
+}
 
 
  
