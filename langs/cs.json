@@ -255,7 +255,7 @@
     "SETUP_DONE": "=== Nastavení dokončeno ===",
     "ERR_POWER_OFF": "SYSTÉM VYPNUT (Global Power OFF)",
     "ERR_EMPTY": "⛔️ >>> ODMÍTNUTO: Nádoba ({0}) je prázdná!",
-    "TASK_INFO": "📋 ÚLOHA: {0} ml",
+    "TASK_INFO": "📋 ÚLOHA: {0} ml ({1})",
     "TASK_ACCEPTED": "✅ PŘIJATO ({0}): {1} ml. Ve frontě: {2} ml",
     "TASK_PARTIAL": "ČÁSTEČNĚ ({0}): {1} z {2} ml. (Nedolito: {3} ml!)",
     "REMAINING": "💧 Zůstatek: {0} ml | 📅 Dnes: {1} ml",
