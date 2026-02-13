@@ -230,8 +230,7 @@
 },  
 "kalk": {
   "title": "Kalkwasser v noci",
-  "name": "Kalkwasser",
-  "night": "Za noc"
+  "name": "Kalkwasser v noci"
 },
 "charts": {
   "title": "Monitoring dávkovače",
