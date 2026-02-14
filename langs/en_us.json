@@ -1,0 +1,276 @@
+{
+  "common": {
+    "backToMain": "← Back to Home",
+    "backMain": "Home",
+    "settings": "Settings",
+    "channelWord": "Channel",
+    "saved": "Data saved",
+    "backToSettings": "Back to Settings",
+    "channelShort": "Ch.",
+    "save": "Save",
+    "saving": "Saving...",
+    "back": "Back",
+    "serverError": "Server not responding",
+    "error": "Save error",
+    "loadError": "Data load error",
+    "pumpError": "Pump control error",
+    "ml": "ml",
+    "from": "from",
+    "to": "to",
+    "ok": "OK",
+    "autoParams": "Parameters set automatically",
+    "channels": {
+      "1": "Channel 1",
+      "2": "Channel 2",
+      "3": "Channel 3",
+      "4": "Channel 4",
+      "5": "Channel 5",
+      "6": "Channel 6",
+      "7": "Channel 7",
+      "8": "Channel 8",
+      "9": "Channel 9",
+      "10": "Channel 10",
+      "11": "Channel 11",
+      "12": "Channel 12"
+    },
+    "lang": {
+      "ru": "Русский",
+      "en": "English",
+      "cs": "Čeština",
+      "uk": "Українська"
+    }
+  },
+  "index": {
+    "subtitle": "The ultimate solution for precise dosing"
+  },
+  "manual": {
+    "pageTitle": "Manual Dosing",
+    "selectChannel": "Select channel",
+    "volumeLabel": "Dose volume (ml)",
+    "volumePlaceholder": "Volume to dose, ml",
+    "btnDose": "Dose Solution",
+    "btnPrime": "Prime Pump",
+    "btnStop": "STOP",
+    "alerts": {
+      "enterVolume": "Please enter volume",
+      "taskAdded": "Task added: {vol} ml to channel {ch}"
+    }
+  },
+  "wifi": {
+    "title": "Wi-Fi & Timezone Settings",
+    "ssidLabel": "SSID:",
+    "ssidPlaceholder": "Network name",
+    "passLabel": "Password:",
+    "passPlaceholder": "Password (can be empty)",
+    "tzLabel": "Timezone:",
+    "btnSave": "Save Settings",
+    "alerts": {
+      "success": "Settings saved successfully!",
+      "error": "Error saving settings"
+    }
+  },
+  "telegram": {
+    "title": "Telegram Settings",
+    "instruction": {
+      "summary": "How to set up Coraldrop Telegram bot",
+      "step1": "Open <b>Telegram</b> and search for <b>@BotFather</b>. Press <i>Start</i>.",
+      "step2": "Send the command <code>/newbot</code> and follow instructions:<br>1. Enter bot name (e.g., <b>Coraldrop</b>).<br>2. Choose a unique <b>Username</b> (must end in <code>_bot</code>, e.g., <b>my_doser_bot</b>).",
+      "step3": "BotFather will provide a token (string under <i>Use this token to access the HTTP API</i>).<br>Copy it and paste into the <i>Bot Token</i> field below.",
+      "step4": "Search for <b>your</b> bot in Telegram and press <i>Start</i>.<br><b>Important:</b> If you don't press Start, the bot cannot send messages.",
+      "step5": "Search for <b>@userinfobot</b> in Telegram and press <i>Start</i>.",
+      "step6": "Copy your <b>Id</b> (numbers) and paste it into the <i>Chat ID</i> field on this page.",
+      "step7": "To test, press <b>Test Connection</b> below. You should receive a test message."
+    },
+    "enableNotif": "Enable Notifications",
+    "botTokenLabel": "Bot Token",
+    "chatIdLabel": "Chat ID",
+    "note": "* Token from @BotFather, Chat ID from @userinfobot",
+    "btnTest": "Test Connection",
+    "status": {
+      "sending": "Sending..."
+    },
+    "alerts": {
+      "saveSuccess": "Telegram settings saved!",
+      "testSuccess": "Message sent! Check Telegram.",
+      "testError": "Failed to send message"
+    }
+  },
+  "balling_day": {
+    "title": "Balling • Day",
+    "header": "Balling Settings: Day",
+    "percentLabel": "Percent of daily dose (%)",
+    "lightFrom": "Peak light from:",
+    "lightTo": "Peak light to:",
+    "alerts": {
+      "saved": "Day settings saved successfully!",
+      "sumError": "Error! Total percent (Day + Night) exceeds 100%.\nNight is currently set to: {night}%. Max for Day: {max}%."
+    }
+  },
+  "pump": {
+    "pageTitle": "Doser • Settings",
+    "header": "Balling Settings",
+    "solutionName": "Solution Name:",
+    "dailyDose": "Daily volume (ml)",
+    "extraDose": "Extra daily dose (ml)",
+    "pause": "Pause between doses (min)",
+    "dosePerShot": "Volume per dose (ml)",
+    "dosePersent": "Daily rate",
+    "phaseInfo": "(Phase: {phase}, {percent}%)",
+    "phases": {
+      "day": "Day",
+      "night": "Night",
+      "other": "Morning/Evening"
+    }
+  },
+  "calibration": {
+    "title": "Calibration Data",
+    "channel": "Channel",
+    "lastDate": "Last calibration",
+    "notDone": "Never calibrated!",
+    "expiredNote": "Calibration required"
+  },
+  "cal_set": {
+    "title": "Doser • Settings",
+    "header": "Channel Calibration",
+    "selectVariant": "Choose calibration method:",
+    "calc": "Calculate flow rate",
+    "resultLabel": "Time per 1 ml (sec)",
+    "pumpOn": "Pump ON",
+    "pumpOff": "Pump OFF",
+    "v1": {
+      "name": "Method 1",
+      "btnStart": "Calibrate",
+      "hint": "Pump will run for 10 seconds.",
+      "running": "Running...",
+      "inputLabel": "Enter volume collected (ml)",
+      "alertDone": "Done. Please enter the volume."
+    },
+    "v2": {
+      "name": "Method 2",
+      "hint": "Press START, collect 50 ml, then press STOP.",
+      "start": "START",
+      "stop": "STOP",
+      "alertOrder": "Press START first"
+    },
+    "status": {
+      "expired": "Calibration needed!",
+      "ok": "Up to date"
+    },
+    "alerts": {
+      "invalidVolume": "Enter a valid volume",
+      "notCalibrated": "Calibration not completed",
+      "saved": "Calibration saved: "
+    }
+  },
+  "balling_night": {
+    "title": "Balling • Night",
+    "header": "Balling Settings: Night",
+    "percentLabel": "Percent of daily dose (%)",
+    "lightOff": "Lights OFF time:",
+    "lightOn": "Lights ON time:",
+    "alerts": {
+      "fillTime": "Please fill both ON and OFF times",
+      "invalidTimeRange": "Invalid time input!\n\nOFF time should be in the EVENING,\nand ON time in the MORNING.\n\nExample: 22:00 → 07:00",
+      "invalidPercent": "Percent must be between 0 and 100",
+      "saved": "Night settings saved!",
+      "sumError": "Error! Total percent (Day + Night) exceeds 100%.\nDay is currently set to: {day}%. Max for Night: {max}%."
+    }
+  },
+  "balling": {
+    "title": "Doser Modes",
+    "row1": {
+      "left": "Balling",
+      "sep": " / ",
+      "right": "Timer"
+    },
+    "row_extra": "Extra Balling dose",
+    "row_kalk": "Kalkwasser at night",
+    "row_solution": "Level control",
+    "settings": {
+      "tele": "Telegram Alerts",
+      "charts": "Usage Charts",
+      "logs": "Event Log",
+      "rename": "Rename Channel"
+    }
+  },
+  "settings": {
+    "pageTitle": "Doser Settings",
+    "moreLanguages": "Other Languages",
+    "menu": {
+      "modes": "Doser Modes",
+      "balling": "Balling",
+      "additionalBalling": "Extra Balling",
+      "kalkwasser": "Kalkwasser Night",
+      "solution": "Solution Level",
+      "calibration": "Pump Calibration",
+      "title": "Rename",
+      "renaming": "Rename Channel",
+      "telegram": "Telegram Alerts",
+      "manual": "Manual Dose",
+      "charts": "Usage Charts",
+      "terminal": "Event Log"
+    },
+    "alerts": {
+      "noKalk": "Kalkwasser is not enabled on any channel",
+      "selectChannel": "Enter channel number:",
+      "wrongChannel": "Invalid channel number",
+      "selectChannelPrompt": "Kalkwasser is enabled on several channels:\n{list}\n\nEnter channel number:"
+    }
+  },
+  "additional_balling": {
+    "title": "Extra Balling Dose",
+    "head": "Additional Balling",
+    "inDay": "Per day"
+  },
+  "solution": {
+    "title": "Liquid Control",
+    "head": "Low Level Control",
+    "full_volume": "Container capacity:",
+    "left": "remaining"
+  },
+  "kalk": {
+    "title": "Kalkwasser • Night",
+    "pageTitle": "Kalkwasser at Night",
+    "totalDose": "Total Kalk dose (ml)",
+    "p1": "1st night interval (%)",
+    "p2": "2nd night interval (%)",
+    "p3": "3rd night interval (%)",
+    "startTime": "Start time",
+    "endTime": "End time",
+    "interval": "Interval between doses (min)",
+    "errPercent": "Total % cannot exceed 100"
+  },
+  "charts": {
+    "title": "Doser Monitoring",
+    "consumption": "Consumption Chart",
+    "all": "All",
+    "month": "30 days",
+    "week": "7 days"
+  },
+  "terminal": {
+    "title": "Log Monitor",
+    "header": "Live Log Stream",
+    "monitoring": "Monitoring",
+    "disabledMsg": "Monitoring disabled. Enable to view logs...",
+    "starting": "Starting monitor...",
+    "stopped": "Monitor stopped."
+  },
+  "logs": {
+    "SERVER_STARTED": "Server started!",
+    "AP_ACCESS": "AP access: http://{0}",
+    "LOCAL_IP": "Local IP: http://{0}",
+    "SETUP_DONE": "=== Setup Complete ===",
+    "ERR_POWER_OFF": "SYSTEM OFF (Global Power OFF)",
+    "ERR_EMPTY": "⛔️ >>> REFUSED: Container ({0}) is empty!",
+    "TASK_INFO": "📋 TASK: {0} ml ({1})",
+    "TASK_ACCEPTED": "✅ ACCEPTED ({0}): {1} ml. In queue: {2} ml",
+    "TASK_PARTIAL": "PARTIAL ({0}): {1} of {2} ml. (Shortage: {3} ml!)",
+    "REMAINING": "💧 Remaining: {0} ml | 📅 Today: {1} ml",
+    "CONTROL_OFF": "ACCEPTED ({0}): {1} ml. [CONTROL OFF]",
+    "START": "START ({0}): {1} ml",
+    "FINISH": "FINISH ({0})",
+    "PUMP_MAN_START": "MANUAL START (Continuous)",
+    "PUMP_MAN_STOP": "MANUAL STOP",
+    "CALIBR_START": "Channel {0} started for {1} sec"
+  }
+}
