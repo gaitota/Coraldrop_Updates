@@ -158,7 +158,7 @@
       "alerts": {
         "invalidVolume": "Введите корректный объём",
         "notCalibrated": "Калибровка не выполнена",
-        "saved": "Калибровка сохранена: "
+        "saved": "Сохранено"
       }
     },
     "balling_night": {
