@@ -159,7 +159,7 @@
     "alerts": {
       "invalidVolume": "Zadejte platný objem",
       "notCalibrated": "Kalibrace nebyla provedena",
-      "saved": "Kalibrace uložena: "
+      "saved": "Uloženo!"
     }
   },
   "balling_night": {
