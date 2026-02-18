@@ -90,6 +90,7 @@
       "sending": "Sending..."
     },
     "alerts": {
+      "disabled": "Unable to send message.\nTelegram is disabled in settings!",
       "saveSuccess": "Telegram settings saved!",
       "testSuccess": "Message sent! Check Telegram.",
       "testError": "Failed to send message"
