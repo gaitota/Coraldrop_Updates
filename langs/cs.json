@@ -90,6 +90,7 @@
       "sending": "Odesílání..."
     },
     "alerts": {
+      "disabled": "Zprávu nelze odeslat.\nTelegram je vypnutý v nastavení!",
       "saveSuccess": "Nastavení Telegramu uloženo!",
       "testSuccess": "Zpráva odeslána! Zkontrolujte Telegram.",
       "testError": "Chyba odesílání"
