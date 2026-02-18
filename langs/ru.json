@@ -89,6 +89,7 @@
         "sending": "Отправка..."
       },
       "alerts": {
+        "disabled": "Отправить сообщение невозможно.\n Telegram отключен в настройках!",
         "saveSuccess": "Настройки Telegram сохранены!",
         "testSuccess": "Сообщение отправлено! Проверьте Telegram.",
         "testError": "Ошибка отправки"
