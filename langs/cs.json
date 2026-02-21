@@ -58,17 +58,19 @@
     }
   },
   "wifi": {
-    "title": "Nastavení Wi-Fi a časového pásma",
-    "ssidLabel": "SSID:",
-    "ssidPlaceholder": "Název sítě",
-    "passLabel": "Heslo:",
-    "passPlaceholder": "Heslo (lze nechat prázdné)",
-    "tzLabel": "Časové pásmo:",
-    "btnSave": "Uložit nastavení",
-    "alerts": {
-      "success": "Nastavení úspěšně uloženo!",
-      "error": "Chyba při ukládání"
-    }
+      "title": "Počáteční nastavení dávkovače",
+      "ssidLabel": "SSID:",
+      "ssidPlaceholder": "Název sítě:",
+      "passLabel": "Heslo:",
+      "passPlaceholder": "Zadejte heslo",
+      "channelsLabel": "Počet kanálů:",
+      "tzLabel": "Časové pásmo:",
+      "btnSave": "Uložit nastavení",
+      "home": "Hlavní stránka",
+      "alerts": {
+          "success": "Nastavení bylo uloženo!",
+          "error": "Chyba při ukládání"
+      }
   },
   "telegram": {
     "title": "Nastavení Telegramu",
