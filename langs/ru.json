@@ -57,17 +57,19 @@
       }
     },
     "wifi": {
-      "title": "Настройки Wi-Fi и часового пояса",
-      "ssidLabel": "SSID:",
-      "ssidPlaceholder": "Имя сети",
-      "passLabel": "Пароль:",
-      "passPlaceholder": "Пароль (можно оставить пустым)",
-      "tzLabel": "Часовой пояс:",
-      "btnSave": "Сохранить настройки",
-      "alerts": {
-        "success": "Настройки успешно сохранены!",
-        "error": "Ошибка при сохранении"
-      }
+        "title": "Первичные настройки дозатора",
+        "ssidLabel": "SSID:",
+        "ssidPlaceholder": "Назва мережі:",
+        "passLabel": "Пароль:",
+        "passPlaceholder": "Введите пароль",
+        "channelsLabel": "Количество каналов:",
+        "tzLabel": "Часовой пояс:",
+        "btnSave": "Сохранить настройки",
+        "home": "Главная",
+        "alerts": {
+            "success": "Настройки сохранены!",
+            "error": "Ошибка при сохранении"
+        }
     },
     "telegram": {
       "title": "Настройки Telegram",
