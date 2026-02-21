@@ -247,7 +247,12 @@
     "consumption": "Spotřeba činidel",
     "all": "Vše",
     "month": "30 dní",
-    "week": "7 dní"
+    "week": "7 dní",
+    "clean": "Vyčištění",
+    "del_all": "Smazat vše",
+    "month_6": "Starší než 6 měs.",
+    "years": "Starší než 1 rok",
+    "noData": "Data zatím nejsou k dispozici. Historie se zobrazí po prvním pracovním cyklu."
   },
   "terminal": {
     "title": "Log monitor",
