@@ -277,6 +277,7 @@
     "SETUP_DONE": "=== Nastavení dokončeno ===",
     "ERR_POWER_OFF": "SYSTÉM VYPNUT (Global Power OFF)",
     "ERR_EMPTY": "⛔️ >>> ODMÍTNUTO: Nádoba ({0}) je prázdná!",
+    "ERR_CH_OFF": "⛔️ >>> ODMÍTNUTO: Kanál ({0}) je vypnutý!",
     "TASK_INFO": "📋 ÚLOHA: {0} ml",
     "TASK_ACCEPTED": "✅ PŘIJATO ({0}): {1} ml. Ve frontě: {2} ml",
     "TASK_PARTIAL": "ČÁSTEČNĚ ({0}): {1} z {2} ml. (Nedostatek: {3} ml!)",
