@@ -59,16 +59,21 @@
   },
   "wifi": {
       "title": "Počáteční nastavení dávkovače",
-      "ssidLabel": "SSID:",
-      "ssidPlaceholder": "Název sítě:",
-      "passLabel": "Heslo:",
+      "AP": "Síť dávkovače (přístupový bod)",
+      "AP_name": "Název sítě dávkovače (AP SSID):",
+      "AP_pass": "Heslo sítě dávkovače (minimálně 8 znaků):",
+      "ssid_conect": "Připojení k routeru",
+      "ssidLabel": "Název domácí Wi-Fi (SSID):",
+      "ssidPlaceholder": "Název sítě routeru:",
+      "sistem": "Systém",
+      "passLabel": "Heslo domácí Wi-Fi:",
       "passPlaceholder": "Zadejte heslo",
       "channelsLabel": "Počet kanálů:",
       "tzLabel": "Časové pásmo:",
       "btnSave": "Uložit nastavení",
-      "home": "Hlavní stránka",
+      "home": "Hlavní",
       "alerts": {
-          "success": "Nastavení bylo uloženo!",
+          "success": "Nastavení uloženo!",
           "error": "Chyba při ukládání"
       }
   },
